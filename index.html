@@ -89,16 +89,17 @@
         }
 
         .logo-icon {
-            width: 2rem;
-            height: 2rem;
-            border-radius: 0.5rem;
-            background: var(--primary);
+            width: 2.5rem;
+            height: 2.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--primary-foreground);
-            font-weight: 700;
-            font-size: 0.875rem;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .logo-text {
@@ -482,16 +483,17 @@
         }
 
         .footer-icon {
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 0.25rem;
-            background: var(--primary);
+            width: 2rem;
+            height: 2rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--primary-foreground);
-            font-weight: 700;
-            font-size: 0.75rem;
+        }
+
+        .footer-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .footer-brand span {
@@ -531,7 +533,7 @@
     <header>
         <div class="container-wide">
             <a href="#home" class="logo" onclick="showPage('home')">
-                <div class="logo-icon">NA</div>
+                <div class="logo-icon"><img src="Untitled-1.svg" alt="NorthApps Studio Logo"></div>
                 <span class="logo-text">NorthApps Studio</span>
             </a>
             <nav>
@@ -731,7 +733,7 @@
     <footer>
         <div class="container-wide">
             <div class="footer-brand">
-                <div class="footer-icon">NA</div>
+                <div class="footer-icon"><img src="Untitled-1.svg" alt="NorthApps Studio Logo"></div>
                 <span>© <span id="year"></span> NorthApps Studio. All rights reserved.</span>
             </div>
             <a href="mailto:northapps.dev@outlook.com">northapps.dev@outlook.com</a>
